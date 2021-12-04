@@ -44,4 +44,4 @@ library(jsonlite)
   
   # save file to csv
   write_csv(df2,
-            file = "Ohl_stats_2021_2022.csv")
+            file = paste0('data/',Sys.Date(),'_player_stats.csv")
